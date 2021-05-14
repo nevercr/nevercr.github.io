@@ -16,7 +16,14 @@
       {% if site.user.about %}
       <ul class="nav_list">
         <li class="nav_item">
-          <a href="{{ site.baseurl }}/about.html">about</a>
+          <a href="{{ site.baseurl }}/about">about</a>
+        </li>
+      </ul>
+      {% endif %}
+      {% if site.user.link %}
+      <ul class="nav_list">
+        <li class="nav_item">
+          <a href="{{ site.baseurl }}/link">link</a>
         </li>
       </ul>
       {% endif %}
