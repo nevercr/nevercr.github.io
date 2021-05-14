@@ -23,8 +23,8 @@ user:
   pic: /tx.png
   picAlt: "bobolook"
   job: Love In Mind
-  about: 
-  link:
+  about: /about
+  link: /link
   
 
 exclude:
