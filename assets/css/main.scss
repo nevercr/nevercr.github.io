@@ -169,7 +169,18 @@ img {
     }
 }
 
-.aboutme {
+.about {
+    @include breakpoint(medium) {
+        max-width: 30rem;
+        margin-top: 5.5rem;
+
+        img {
+            float: none;
+        }
+    }
+    }
+
+.link {
     @include breakpoint(medium) {
         max-width: 30rem;
         margin-top: 5.5rem;
